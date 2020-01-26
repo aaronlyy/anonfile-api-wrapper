@@ -15,16 +15,16 @@ class Anonfile:
     '''
     def __init__(self, api_key=None):
         self.api_key = api_key
-        self.api_info = 'https://anonfile.com/api/v2/file/{id}/info'
+        self.api_info = 'https://api.anonfile.com/v2/file/{id}/info'
         if api_key:
-            self.api_upload = 'https://anonfile.com/api/upload?token={}'.format(api_key)
+            self.api_upload = 'https://api.anonfile.com/upload?token={key}'.format(key=api_key)
         else:
-            self.api_upload = 'https://anonfile.com/api/upload'
+            self.api_upload = 'https://api.anonfile.com/upload'
 
     def __repr__(self):
         return 'Object: Anonfile ({})'.format('anonfile.com')
     
-    def isup(self):
+    def isUp(self):
         '''
         checks if the anonfile.com server is up.\n
         returns True or False.
