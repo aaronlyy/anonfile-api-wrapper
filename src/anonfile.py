@@ -1,8 +1,8 @@
 '''
 lib for accessing the anonfile.com API.\n
 ------------------------------------\n
-author: Aaron // aaronlyy\n
-website: https://krotesq.net/\n
+author: Aaron Levi // aaronlyy\n
+website: https://aaronlyy.me/\n
 ------------------------------------
 '''
 
