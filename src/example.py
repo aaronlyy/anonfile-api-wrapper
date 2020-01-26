@@ -12,5 +12,3 @@ print(response.file_id)
 res_dict = response.getfullres()
 for k, v in res_dict.items():
     print(k, v)
-
-# ye
