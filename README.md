@@ -3,7 +3,7 @@
 ## Features
 
 * **Upload a File to Anonfile.com**
-* **Uplaod a File directly to your Anonfile.com Account, using your API key**
+* **Upload a File directly to your Anonfile.com Account, using your API key**
 * **Get Information about an uploaded File**
 
 ## How to Use
